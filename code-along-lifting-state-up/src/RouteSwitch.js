@@ -1,7 +1,7 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
-import About from "./About";
+import About from "./components/About";
 
 const RouteSwitch = () => {
   return (

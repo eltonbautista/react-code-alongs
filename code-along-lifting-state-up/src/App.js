@@ -2,6 +2,7 @@ import './App.css';
 import BoilingVerdict from './components/BoilingVerdict'
 import Calculator from './components/Calculator';
 import Profile from './Profile';
+import { Link } from 'react-router-dom';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
     <div className="App">
       <h1>Hello from App</h1>
       <button>{handleProfileLink()}</button>
-      <button>{handleAboutLink()}</button>
+      <Link to="/about">About</Link>
     </div>
   );
 }
