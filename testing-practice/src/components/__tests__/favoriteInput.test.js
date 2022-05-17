@@ -6,6 +6,7 @@ import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
 import FavoriteInput from "../favoriteInput";
 
+
 describe("Favorite Input", () => {
   it("calls onChange correct number of times", () => {
     const onChangeMock = jest.fn();
